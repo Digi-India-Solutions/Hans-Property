@@ -13,7 +13,7 @@ const locationController = require('../controlers/location.contoler');
 const authenticate = require('../middlewares/auth');
 const authorizeRoles = require('../middlewares/roleauth');
 // const { multipleImages } = require('../middlewares/Multer');
-const upload = require('../middlewares/Multer');
+const upload = require('../middlewares/multer');
 
 // Property Routes
 router.post('/create-property',upload.array("images" ,10) , createProperty); 
