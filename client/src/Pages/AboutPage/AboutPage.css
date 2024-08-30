@@ -1,0 +1,65 @@
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #003873;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section-subtitle {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #00AAA9;
+    margin-bottom: 15px;
+}
+
+/* Introduction Section */
+.about-intro-section .intro-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+    text-align: justify;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #00AAA9;
+}
+
+/* History Section */
+.company-history-section img {
+    margin-top: 20px;
+}
+
+/* Vision & Mission Section */
+.vision-mission-section {
+    background-color: #f7f7f7;
+}
+
+/* Team Section */
+.team-section {
+    background-color: #fff;
+    text-align: center;
+}
+.team-section .team-member{
+    margin-bottom: 2rem;
+}
+.team-member h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #003873;
+}
+
+.team-member .position {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .section-title {
+        font-size: 2rem;
+    }
+}

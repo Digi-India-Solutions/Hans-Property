@@ -1,0 +1,456 @@
+:root{
+    --color-light: #9b9b9b;
+}
+
+/* Margin top */
+.mt-1 {
+    margin-top: 0.25rem; /* 1 unit */
+}
+.mt-2 {
+    margin-top: 0.5rem; /* 2 units */
+}
+.mt-3 {
+    margin-top: 0.75rem; /* 3 units */
+}
+.mt-4 {
+    margin-top: 1rem; /* 4 units */
+}
+.mt-5 {
+    margin-top: 1.25rem; /* 5 units */
+}
+
+/* Margin bottom */
+.mb-1 {
+    margin-bottom: 0.25rem; /* 1 unit */
+}
+.mb-2 {
+    margin-bottom: 0.5rem; /* 2 units */
+}
+.mb-3 {
+    margin-bottom: 0.75rem; /* 3 units */
+}
+.mb-4 {
+    margin-bottom: 1rem; /* 4 units */
+}
+.mb-5 {
+    margin-bottom: 1.25rem; /* 5 units */
+}
+
+/* Padding top */
+.pt-1 {
+    padding-top: 0.25rem; /* 1 unit */
+}
+.pt-2 {
+    padding-top: 0.5rem; /* 2 units */
+}
+.pt-3 {
+    padding-top: 0.75rem; /* 3 units */
+}
+.pt-4 {
+    padding-top: 1rem; /* 4 units */
+}
+.pt-5 {
+    padding-top: 1.25rem; /* 5 units */
+}
+
+/* Padding bottom */
+.pb-1 {
+    padding-bottom: 0.25rem; /* 1 unit */
+}
+.pb-2 {
+    padding-bottom: 0.5rem; /* 2 units */
+}
+.pb-3 {
+    padding-bottom: 0.75rem; /* 3 units */
+}
+.pb-4 {
+    padding-bottom: 1rem; /* 4 units */
+}
+.pb-5 {
+    padding-bottom: 1.25rem; /* 5 units */
+}
+
+/* Margin left */
+.ml-1 {
+    margin-left: 0.25rem; /* 1 unit */
+}
+.ml-2 {
+    margin-left: 0.5rem; /* 2 units */
+}
+.ml-3 {
+    margin-left: 0.75rem; /* 3 units */
+}
+.ml-4 {
+    margin-left: 1rem; /* 4 units */
+}
+.ml-5 {
+    margin-left: 1.25rem; /* 5 units */
+}
+
+/* Margin right */
+.mr-1 {
+    margin-right: 0.25rem; /* 1 unit */
+}
+.mr-2 {
+    margin-right: 0.5rem; /* 2 units */
+}
+.mr-3 {
+    margin-right: 0.75rem; /* 3 units */
+}
+.mr-4 {
+    margin-right: 1rem; /* 4 units */
+}
+.mr-5 {
+    margin-right: 1.25rem; /* 5 units */
+}
+
+/* Padding left */
+.pl-1 {
+    padding-left: 0.25rem; /* 1 unit */
+}
+.pl-2 {
+    padding-left: 0.5rem; /* 2 units */
+}
+.pl-3 {
+    padding-left: 0.75rem; /* 3 units */
+}
+.pl-4 {
+    padding-left: 1rem; /* 4 units */
+}
+.pl-5 {
+    padding-left: 1.25rem; /* 5 units */
+}
+
+/* Padding right */
+.pr-1 {
+    padding-right: 0.25rem; /* 1 unit */
+}
+.pr-2 {
+    padding-right: 0.5rem; /* 2 units */
+}
+.pr-3 {
+    padding-right: 0.75rem; /* 3 units */
+}
+.pr-4 {
+    padding-right: 1rem; /* 4 units */
+}
+.pr-5 {
+    padding-right: 1.25rem; /* 5 units */
+}
+
+/* Margin all sides */
+.m-1 {
+    margin: 0.25rem; /* 1 unit */
+}
+.m-2 {
+    margin: 0.5rem; /* 2 units */
+}
+.m-3 {
+    margin: 0.75rem; /* 3 units */
+}
+.m-4 {
+    margin: 1rem; /* 4 units */
+}
+.m-5 {
+    margin: 1.25rem; /* 5 units */
+}
+
+/* Padding all sides */
+.p-1 {
+    padding: 0.25rem; /* 1 unit */
+}
+.p-2 {
+    padding: 0.5rem; /* 2 units */
+}
+.p-3 {
+    padding: 0.75rem; /* 3 units */
+}
+.p-4 {
+    padding: 1rem; /* 4 units */
+}
+.p-5 {
+    padding: 1.25rem; /* 5 units */
+}
+/* Font sizes for headings */
+.h1 {
+    font-size: 2.5rem; /* Example size for h1 */
+}
+.h2 {
+    font-size: 2rem; /* Example size for h2 */
+}
+.h3 {
+    font-size: 1.75rem; /* Example size for h3 */
+}
+.h4 {
+    font-size: 1.5rem; /* Example size for h4 */
+}
+.h5 {
+    font-size: 1.25rem; /* Example size for h5 */
+}
+.h6 {
+    font-size: 1rem; /* Example size for h6 */
+}
+
+/* Font weights */
+.fs-400 {
+    font-weight: 400;
+}
+
+.fs-500 {
+    font-weight: 500;
+}
+
+.fs-600 {
+    font-weight: 600;
+}
+
+.fs-700 {
+    font-weight: 700;
+}
+
+.md-mb-5 {
+    margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+    .md-mb-5 {
+        margin-bottom: 3rem; 
+    }
+}
+
+
+/* ================================================================================================= */
+.inner-box .image-box .image img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+.advance__search__content{
+    flex-basis: 80%;
+}
+
+@media only screen and (max-width: 1000px){
+    .advance__search__content {
+        flex-basis: 100%;
+    }
+}
+
+
+
+/* -------------  */
+.text-white{
+    color: white !important;
+}
+.property__one__left h3{
+    line-height: 1rem;
+}
+.property__two__title h4{
+    padding-bottom: 1rem;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+}
+.property__two__title h4:after {
+    bottom: 5px;
+    height: 2px;
+}
+
+
+.grid-4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+}
+/* For medium screens (tablets and small desktops) */
+@media (max-width: 1199px) and (min-width: 768px) {
+    .grid-4 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 767px) {
+    .grid-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .see__pad {
+        padding: 40px 0px;
+    }
+    .property__one__left h3 {
+        line-height: 1.8rem;
+    }
+}
+/* For extra small screens (very small mobile devices) */
+@media (max-width: 340px) {
+    .grid-4 {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.sec-title.mb-5 h2 {
+    margin-bottom: 3rem;
+}
+/* ================================ property-single-col ===========================  */
+
+.property-single-col{
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+    border: 1px solid #ded9d9;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+}
+.property-single-col .img{
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+.property-single-col .img .absolute{
+    position: absolute;
+    background: var(--secondary-color);
+    color: white;
+    padding: 1px 0.5rem;
+    top: 5%;
+    right: 5%;
+    border-radius: 5px;
+}
+.property-single-col .img img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 0.6rem;
+}
+.property-single-col .pro-detail{
+    position: relative;
+}
+.property-single-col .pro-detail .price{
+    background: linear-gradient(135deg, var(--primary-color), #004274);
+    color: #fff;
+    float: right;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    position: relative;
+    width: -webkit-max-content;
+    width: max-content;
+}
+.property-single-col .pro-detail .price:after{
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #fff;
+    border-top: 10px solid transparent;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+}
+.property-single-col .pro-detail .pro-name{
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+.property-single-col .pro-detail .brief-info{
+    padding-bottom: 0rem;
+}
+.property-single-col .pro-detail address{
+    color: var(--color-light);
+    font-size: 0.8rem;
+    margin-bottom: 0rem;
+    line-height: 1rem;
+}
+.property-single-col .contact-btn{
+    color: white;
+    padding: 0.2rem 0.5rem;
+    background: var(--secondary-color);
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+
+
+
+@media only screen and (max-width: 450px) {
+    .property-single-col .img img{
+        border-radius: 5px;
+        height: 150px;
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: 0.5rem;
+    }
+}
+
+
+
+/* ================= filter-section   ================= */
+.filter-section .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid var(--theme-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.filter-section .form-control:focus {
+    color: var(--primary-color);
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.15rem rgba(44, 171, 226, 0.333);
+}
+
+.form-range {
+    -webkit-appearance: none; 
+    appearance: none; 
+    width: 100%; 
+    height: 8px; 
+    background: var(--secondary-color); 
+    border-radius: 5px; 
+    outline: none; 
+    cursor: pointer; 
+    position: relative; 
+}
+
+.form-range::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none; 
+    width: 20px; 
+    height: 20px; 
+    background: var(--primary-color); 
+    border-radius: 50%; 
+    cursor: pointer; 
+}
+
+.form-range::-moz-range-thumb {
+    width: 20px; 
+    height: 20px; 
+    background: var(--primary-color); 
+    border-radius: 50%; 
+    cursor: pointer; 
+}
+
+.form-range::-ms-thumb {
+    width: 20px; 
+    height: 20px; 
+    background: var(--primary-color); 
+    border-radius: 50%; 
+    cursor: pointer; 
+}
+
+.form-range::-ms-track {
+    background: transparent; 
+    border-color: transparent; 
+    color: transparent; 
+    height: 8px; 
+}
