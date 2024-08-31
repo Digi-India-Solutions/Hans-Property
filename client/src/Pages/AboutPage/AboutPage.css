@@ -36,15 +36,16 @@
 .vision-mission-section {
     background-color: #f7f7f7;
 }
-
 /* Team Section */
 .team-section {
     background-color: #fff;
     text-align: center;
 }
-.team-section .team-member{
+
+.team-section .team-member {
     margin-bottom: 2rem;
 }
+
 .team-member h4 {
     font-size: 1.5rem;
     font-weight: 600;
@@ -58,8 +59,25 @@
     margin-bottom: 10px;
 }
 
+.team-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border-radius: 50%;
+    object-fit:cover ;
+}
 @media only screen and (max-width: 600px) {
     .section-title {
         font-size: 2rem;
     }
+    .team-img {
+        max-width: 150px;
+        max-height: 150px;
+    }
 }
+
+
+
+
+
+

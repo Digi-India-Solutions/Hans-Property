@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import aboutImage from './about.jpg';
 import './AboutPage.css'; // Make sure to import the stylesheet
 import MetaTag from '../../components/Meta/MetaTags';
+import fatherImg from './father.jpeg'
+import sonImg from './son.jpeg'
 
 const AboutPage = () => {
     useEffect(() => {
@@ -102,6 +104,7 @@ const AboutPage = () => {
                     <h3 className="section-title mb-40">Meet Our Team</h3>
                     <div className="row">
                         <div className="col-md-6 team-member">
+                            <img src={fatherImg} alt="Kailash Chand Khandelwal" className="team-img mb-3" />
                             <h4>Kailash Chand Khandelwal</h4>
                             <p className="position">Founder, Hans Property</p>
                             <p>
@@ -110,6 +113,7 @@ const AboutPage = () => {
                             </p>
                         </div>
                         <div className="col-md-6 team-member">
+                            <img src={sonImg} alt="Groovin Khandelwal" className="team-img mb-3" />
                             <h4>Groovin Khandelwal</h4>
                             <p className="position">CEO, Hans Property</p>
                             <p>
