@@ -7,8 +7,8 @@ const AddProperty = () => {
     const [formData, setFormData] = useState({
         title: '',
         description: '',
-        type: 'Rent',
-        category: 'Floor',
+        type: '',
+        category: '',
         price: 0,
         areaSize: '',
         bedrooms: 0,
@@ -173,6 +173,7 @@ const AddProperty = () => {
                     <div className="col-md-4">
                         <label htmlFor="type" className="form-label">Type</label>
                         <select onChange={handleInputChange} name="type" value={formData.type} className="form-select" id="type" required>
+                            <option>Select Property Type</option>
                             {propertyType && propertyType.map((type,ind)=>(
                                 <option key={ind} value={type}>{type}</option>
                             ))}
@@ -182,6 +183,7 @@ const AddProperty = () => {
                     <div className="col-md-4">
                         <label htmlFor="category" className="form-label">Category</label>
                         <select onChange={handleInputChange} name="category" value={formData.category} className="form-select" id="category" required>
+                            <option>Select Property Category</option>
                             {propertyCategory && propertyCategory.map((category)=>(
                                 <option value={category}>{category}</option>
                             ))}

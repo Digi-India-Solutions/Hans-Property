@@ -31,13 +31,13 @@ exports.createProperty = async (req, res) => {
         }
 
         // Check if the property with the same title already exists
-        const existingProperty = await Property.findOne({ title });
-        if (existingProperty) {
-            return res.status(400).json({
-                success: false,
-                message: "Property Name Already Exists !!"
-            });
-        }
+        // const existingProperty = await Property.findOne({ title });
+        // if (existingProperty) {
+        //     return res.status(400).json({
+        //         success: false,
+        //         message: "Property Name Already Exists !!"
+        //     });
+        // }
 
         // Create a new Property object
         const data = new Property({
