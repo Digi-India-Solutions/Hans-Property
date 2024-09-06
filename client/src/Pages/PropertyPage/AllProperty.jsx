@@ -241,7 +241,11 @@ const AllProperty = () => {
                     <div className="col-md-12 text-center mt-4">
                         {isLoading ? <Loader /> : (
                             visibleCount < properties.length && (
-                                <button onClick={handleViewMore} className="btn btn-primary">View More</button>
+                                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                    <button onClick={handleViewMore} className="common-btn btn__two">
+                                        View More <i className="icon-icon-51" />
+                                    </button>
+                                </div>
                             )
                         )}
                     </div>

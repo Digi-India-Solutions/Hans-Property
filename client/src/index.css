@@ -106,3 +106,21 @@
     border-bottom: 1px solid white;
     padding-bottom: 0.1rem;
 }
+
+
+
+
+
+
+
+.property__image__box img{
+    max-height: 250px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.card-img-top{
+    max-height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
