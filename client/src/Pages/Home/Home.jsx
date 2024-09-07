@@ -69,7 +69,7 @@ const Home = () => {
 
       <MetaTag
         title="Hans Builders - Trusted Real Estate Experts"
-        description="Founded in 2017, Hans Builders, led by Kailash Chand Khandelwal and Groovin Khandelwal, has been a leading name in the real estate industry, helping clients find their dream properties in Dwarka and beyond."
+        description="Founded in 2017, Hans Builders, led by Kailash Chand Khandelwal and Grovin Khandelwal, has been a leading name in the real estate industry, helping clients find their dream properties in Dwarka and beyond."
         keyword="Hans Builders, Hans Property, real estate Hans Builders, property Hans Builders, Dwarka real estate, Hans Builders website, real estate experts Hans Builders, Hans Builders contact, Hans Builders property management"
       />
 

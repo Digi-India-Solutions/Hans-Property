@@ -20,8 +20,8 @@ const AboutPage = () => {
 
             <MetaTag
                 title="About Us - Hans Property"
-                description="Discover the story of Hans Property, founded in 2017 by Kailash Chand Khandelwal. Learn about our vision, mission, and the leadership of Groovin Khandelwal as we continue to excel in the real estate industry."
-                keyword="Hans Property, real estate history, Hans Property mission, Hans Property vision, Kailash Chand Khandelwal, Groovin Khandelwal, real estate leaders, company history Hans Property"
+                description="Discover the story of Hans Property, founded in 2017 by Kailash Chand Khandelwal. Learn about our vision, mission, and the leadership of Grovin Khandelwal as we continue to excel in the real estate industry."
+                keyword="Hans Property, real estate history, Hans Property mission, Hans Property vision, Kailash Chand Khandelwal, Grovin Khandelwal, real estate leaders, company history Hans Property"
             />
 
 
@@ -50,7 +50,7 @@ const AboutPage = () => {
                             <p className="intro-text">
                                 <strong> Hans Property</strong> has been a trusted name in the real estate industry.
                                 With years of experience and a commitment to excellence, we have been helping our clients find their dream properties.
-                                <span className="highlight">Today, the legacy is carried forward by Groovin Khandelwal,</span> who continues to lead the company towards new heights.
+                                <span className="highlight">Today, the legacy is carried forward by Grovin Khandelwal,</span> who continues to lead the company towards new heights.
                             </p>
                         </div>
                     </div>
@@ -113,11 +113,11 @@ const AboutPage = () => {
                             </p>
                         </div>
                         <div className="col-md-6 team-member">
-                            <img src={sonImg} alt="Groovin Khandelwal" className="team-img mb-3" />
-                            <h4>Groovin Khandelwal</h4>
+                            <img src={sonImg} alt="Grovin Khandelwal" className="team-img mb-3" />
+                            <h4>Grovin Khandelwal</h4>
                             <p className="position">CEO, Hans Property</p>
                             <p>
-                                Groovin Khandelwal, son of Kailash Chand Khandelwal, now leads Hans Property. Under his guidance, the company continues to thrive and
+                                Grovin Khandelwal, son of Kailash Chand Khandelwal, now leads Hans Property. Under his guidance, the company continues to thrive and
                                 achieve new milestones in the real estate market.
                             </p>
                         </div>
